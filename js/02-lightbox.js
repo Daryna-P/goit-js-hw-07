@@ -33,12 +33,7 @@ function onGalleryContainerClick(evt) {
     )}"><img src="${evt.target.getAttribute(
     "src"
   )}" alt="${evt.target.getAttribute("alt")}" /></a>
-    <a href="${evt.target.getAttribute(
-      "href"
-    )}"><img src="${evt.target.getAttribute(
-    "src"
-  )}" alt="${evt.target.getAttribute("alt")}"/></a>
-</div>
+  </div>
     `;
 }
 // 4.Подивися в документації секцію «Options» і додай відображення підписів до зображень з атрибута alt. Нехай підпис буде знизу і з'являється через 250 мілісекунд після відкриття зображення.
